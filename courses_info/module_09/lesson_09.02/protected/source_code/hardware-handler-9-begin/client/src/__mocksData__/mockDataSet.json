@@ -1,0 +1,73 @@
+{
+  "departments": [
+    {
+      "id": 45,
+      "name": "Garden Tools"
+    },
+    {
+      "id": 56,
+      "name": "Appliances"
+    }
+  ],
+  "error": false,
+  "products": [
+    {
+      "brand": "Gnome Gardening",
+      "departmentId": 45,
+      "description": "A trowel above all others.",
+      "id": 1,
+      "name": "Polka Dot Trowel",
+      "retailPrice": 999
+    },
+    {
+      "brand": "Gnome Gardening",
+      "departmentId": 45,
+      "description": "Protect yourself from sun burn while gardening with a wide brimmed, lightweight sun hat.",
+      "id": 2,
+      "name": "Rose Sun Hat",
+      "retailPrice": 2495
+    },
+    {
+      "brand": "SL",
+      "departmentId": 56,
+      "description": "This fridge keeps your food at the perfect temperature guaranteed.",
+      "id": 3,
+      "name": "Stainless Steel Refrigerator",
+      "retailPrice": 229900
+    },
+    {
+      "brand": "Swirl Pool",
+      "departmentId": 56,
+      "description": "Clothes have never been so clean, and a washer has never looked so stylish cleaning them.",
+      "id": 4,
+      "name": "Matte Black Connected Washing Machine",
+      "retailPrice": 45050
+    }
+  ],
+  "filtersByBrand": [
+    { "name": "Gnome Gardening", "value": "Gnome Gardening" },
+    { "name": "SL", "value": "SL" },
+    { "name": "Swirl Pool", "value": "Swirl Pool" }
+  ],
+  "checkoutItems": [
+    {
+      "brand": "SL",
+      "departmentId": 56,
+      "description": "This fridge keeps your food at the perfect temperature guaranteed.",
+      "productId": 3,
+      "name": "Stainless Steel Refrigerator",
+      "retailPrice": 229900,
+      "quantity": 1
+    },
+    {
+      "brand": "Swirl Pool",
+      "departmentId": 56,
+      "description": "Clothes have never been so clean, and a washer has never looked so stylish cleaning them.",
+      "productId": 4,
+      "name": "Matte Black Connected Washing Machine",
+      "retailPrice": 45050,
+      "quantity": 1
+    }
+  ],
+  "checkoutCount": 2
+}

@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Cantilever Umbrella",
+      "brand": "Backgate",
+      "description": "The fanciest umbrella with an ultra strong curved arm so there is no pole marring your perfect view.",
+      "retailPrice": 29000,
+      "departmentId": 22
+    },
+    {
+      "id": 2,
+      "name": "Shag Rug",
+      "brand": "Fauxhawk",
+      "description": "You thought once was enough, but guess what? This rug is back for round 2.",
+      "retailPrice": 6999,
+      "departmentId": 37
+    },
+    {
+      "id": 3,
+      "name": "Table and Chair Set",
+      "brand": "Backgate",
+      "description": "What's a table without some chairs to match? Have a seat and enjoy.",
+      "retailPrice": 18250,
+      "departmentId": 22
+    },
+    {
+      "id": 4,
+      "name": "Arabesque Tile",
+      "brand": "Tile & More",
+      "description": "This is some seriously classy file flooring. Easy clean, easy install to boot.",
+      "retailPrice": 1299,
+      "departmentId": 37
+    },
+    {
+      "id": 5,
+      "name": "Area rug",
+      "brand": "Carpets r' Us",
+      "description": "This lovely area rug warms up any room instantly.",
+      "retailPrice": 31799,
+      "departmentId": 37
+    },
+    {
+      "id": 6,
+      "name": "Outdoor Chaise Lounge",
+      "brand": "Sandy Furniture",
+      "description": "Why sit up and when you can lounge by the pool living your best life?",
+      "retailPrice": 23900,
+      "departmentId": 22
+    }
+  ]
+}

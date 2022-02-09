@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+p {
+  padding-top: 10px;
+}
+
+.App button {
+  background-color: lightgreen;
+}
+
+.drawer {
+  background-color: rgb(250, 152, 243);
+  height: 100vh;
+  width: 100%;
+}
+
+.drawer button {
+  background-color: red;
+  color: white;
+}

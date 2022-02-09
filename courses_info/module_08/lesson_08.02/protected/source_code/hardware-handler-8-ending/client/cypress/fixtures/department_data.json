@@ -1,0 +1,12 @@
+{
+  "departments": [
+    {
+      "id": 37,
+      "name": "Flooring"
+    },
+    {
+      "id": 22,
+      "name": "Patio Furniture"
+    }
+  ]
+}

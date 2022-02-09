@@ -1,0 +1,82 @@
+{
+  "name": "hardware-handler",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:4000",
+  "dependencies": {
+    "@craco/craco": "^6.2.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "antd": "^4.16.9",
+    "axios": "^0.21.1",
+    "concurrently": "^6.0.0",
+    "craco-less": "^1.18.0",
+    "prettier": "^2.2.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3"
+  },
+  "scripts": {
+    "start": "concurrently \"cd ../server && yarn start\" \"craco start\"",
+    "build": "craco build",
+    "test": "craco test",
+    "ci-test": "CI=true craco test --verbose",
+    "coverage": "craco test --verbose --coverage --watchAll=false",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/react-hooks": "^7.0.0",
+    "@testing-library/user-event": "^12.2.2",
+    "axios-mock-adapter": "^1.19.0",
+    "babel-eslint": "10.1.0",
+    "cypress": "^8.0.0",
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-chai-friendly": "^0.7.1",
+    "eslint-plugin-cypress": "^2.11.3",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^2.5.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "^14.0.0",
+    "yarn": "^1.20.0"
+  },
+  "volta": {
+    "node": "14.0.0",
+    "yarn": "1.22.10"
+  }
+}
